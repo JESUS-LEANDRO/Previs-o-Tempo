@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="container">
+        <h1>Clima</h1>
+
+        <form class="busca">
+            <input type="search" id="searchInput" />
+            <button>Buscar</button>
+        </form>
+
+        <div class="resultado">
+            <div id="up">
+                <img src="image/localização.png" width="25" alt="">
+                <div class="titulo">--</div>
+                <div class="month">julho 21</div>
+            </div>
+            <div class="day">
+                <h3 class="d">Quarta-feira</h3>
+            </div>
+            <div class="info">
+                <div class="dvl">
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" width="150" />
+                    <div class="pc"></div>
+                </div>
+                <div class="temp">
+                    <div class="tempInfo"><span class="tem">20<sup>ºC</span></sup></div>
+                    <div class="sensasao-termica">Sensação tér --º</div>
+                </div>
+                <div class="vento">
+                    <div id="mem">
+                        <div id="mim">Mim 10º</div>/
+                        <div id="max">Max 15º</div>
+                    </div>
+                    <div class="cpvento">
+                        <div class="ventoTitulo">Vento:</div>
+                        <div class="ventoInfo">-- <span>km/h</span></div>
+                    </div>
+                    <div class="humi">
+                        <img src="image/humidade.png" width="12" alt="">
+                        <div class="hu">o%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="aviso"></div>
+
+        <footer>Criado pela B7Web | Modificado por <a href="https://github.com/JESUS-LEANDRO">Leandro
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
